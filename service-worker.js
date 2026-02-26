@@ -5,7 +5,8 @@ const urlsToCache = [
     '/customer.html',
     '/provider.html',
     '/manifest.json',
-    '/js/storage.js'
+    '/js/storage.js',
+    '/js/mockdata.js'
 ];
 
 self.addEventListener('install', function(event) {
