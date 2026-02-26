@@ -10,26 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#0D9488',
-                        'primary-dark': '#0F766E',
-                        'primary-light': '#14B8A6',
-                        grey: '#374151',
-                        'dark-grey': '#1F2937',
-                        'light-bg': '#F3F4F6'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .sidebar { background: var(--dark-grey); }
+        .nav-item:hover { background: #374151; }
+    </style>
     <style>
         body { font-family: 'Inter', sans-serif; }
         .sidebar { width: 240px; }
